@@ -1,8 +1,8 @@
-﻿Log file open, 09/25/20 18:23:12
+﻿Log file open, 09/25/20 20:25:02
 LogInit: Display: Running engine for game: PotionBombTheZombs
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.235019
+LogStats: Stats thread started at 0.290012
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,1345 +194,460 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.09.25-22.23.13:005][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.09.25-22.23.13:005][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.09.25-22.23.13:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.25-22.23.13:005][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.25-22.23.13:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.09.25-22.23.13:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.25-22.23.13:006][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.25-22.23.13:013][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.25-22.23.13:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.25-22.23.13:014][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.25-22.23.13:015][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.25-22.23.13:015][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.09.25-22.23.13:015][  0]LogHAL: Display: Platform has ~ 8 GB [8466898944 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.09.25-22.23.13:015][  0]LogInit: Going up to parent DeviceProfile []
-[2020.09.25-22.23.13:015][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.25-22.23.13:015][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.09.25-22.23.13:017][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.25-22.23.13:017][  0]LogInit: Computer: LAPTOP-50LQP7G3
-[2020.09.25-22.23.13:017][  0]LogInit: User: edwar
-[2020.09.25-22.23.13:017][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.09.25-22.23.13:017][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.09.25-22.23.13:017][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.09.25-22.23.13:017][  0]LogMemory: Platform Memory Stats for Windows
-[2020.09.25-22.23.13:017][  0]LogMemory: Process Physical Memory: 114.10 MB used, 114.11 MB peak
-[2020.09.25-22.23.13:017][  0]LogMemory: Process Virtual Memory: 96.21 MB used, 96.21 MB peak
-[2020.09.25-22.23.13:017][  0]LogMemory: Physical Memory: 5726.20 MB used,  2348.47 MB free, 8074.66 MB total
-[2020.09.25-22.23.13:017][  0]LogMemory: Virtual Memory: 5143.14 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2020.09.25-22.23.13:024][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.09.25-22.23.13:079][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.09.25-22.23.13:080][  0]LogInit: Using OS detected language (en-US).
-[2020.09.25-22.23.13:080][  0]LogInit: Using OS detected locale (en-US).
-[2020.09.25-22.23.13:246][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.09.25-22.23.13:480][  0]LogInit: Setting process to per monitor DPI aware
-[2020.09.25-22.23.13:526][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.09.25-22.23.13:527][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.09.25-22.23.13:882][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.25-22.23.13:883][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.09.25-22.23.13:883][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.09.25-22.23.13:883][  0]LogD3D11RHI: D3D11 adapters:
-[2020.09.25-22.23.13:965][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2020.09.25-22.23.13:965][  0]LogD3D11RHI:       4018/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.09.25-22.23.13:980][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.09.25-22.23.13:980][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.09.25-22.23.13:983][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.09.25-22.23.13:983][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.09.25-22.23.13:983][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.09.25-22.23.14:028][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.09.25-22.23.14:029][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2020.09.25-22.23.14:029][  0]LogWindows: EnumDisplayDevices:
-[2020.09.25-22.23.14:029][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2020.09.25-22.23.14:029][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.09.25-22.23.14:029][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.09.25-22.23.14:030][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.09.25-22.23.14:030][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.09.25-22.23.14:030][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.09.25-22.23.14:030][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.09.25-22.23.14:031][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.09.25-22.23.14:031][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2020.09.25-22.23.14:031][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
-[2020.09.25-22.23.14:031][  0]LogD3D11RHI:      Driver Date: 7-5-2020
-[2020.09.25-22.23.14:031][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2020.09.25-22.23.14:086][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.09.25-22.23.14:090][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.09.25-22.23.14:090][  0]LogD3D11RHI: Async texture creation enabled
-[2020.09.25-22.23.14:090][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.09.25-22.23.14:108][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.09.25-22.23.14:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.09.25-22.23.14:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.09.25-22.23.14:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.09.25-22.23.14:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.09.25-22.23.14:535][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.09.25-22.23.14:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.09.25-22.23.14:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.09.25-22.23.14:570][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.09.25-22.23.14:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.09.25-22.23.14:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.09.25-22.23.14:601][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.09.25-22.23.14:632][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.09.25-22.23.14:632][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.09.25-22.23.14:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.09.25-22.23.14:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.09.25-22.23.14:662][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.09.25-22.23.14:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.09.25-22.23.14:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.09.25-22.23.14:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.09.25-22.23.14:697][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.09.25-22.23.14:706][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.09.25-22.23.14:782][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Intermediate/Shaders/WorkingDirectory/5184/).
-[2020.09.25-22.23.14:783][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/edwar/AppData/Local/Temp/UnrealShaderWorkingDir/86A968AE4793ED202B4BD993F3BD3C37/'.
-[2020.09.25-22.23.14:783][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.09.25-22.23.14:783][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.09.25-22.23.14:783][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.09.25-22.23.15:702][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.09.25-22.23.15:773][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/edwar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.25-22.23.15:773][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/edwar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.09.25-22.23.15:773][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.09.25-22.23.15:773][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.09.25-22.23.15:773][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.25-22.23.15:773][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.09.25-22.23.15:787][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.09.25-22.23.15:787][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.25-22.23.15:787][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.09.25-22.23.15:789][  0]LogDerivedDataCache: Using Local data cache path C:/Users/edwar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.09.25-22.23.15:789][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.09.25-22.23.15:789][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.09.25-22.23.15:851][  0]LogSlate: Using FreeType 2.10.0
-[2020.09.25-22.23.15:852][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.25-22.23.15:887][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
-[2020.09.25-22.23.16:160][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.25-22.23.16:297][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.09.25-22.23.16:297][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.09.25-22.23.16:297][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.09.25-22.23.16:297][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.09.25-22.23.16:297][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.09.25-22.23.16:317][  0]LogNetVersion: PotionBombTheZombs 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2111352588)
-[2020.09.25-22.23.16:893][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E29FFC2AC0), frame # 0
-[2020.09.25-22.23.16:893][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E29FF4BD80), frame # 0
-[2020.09.25-22.23.16:895][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E29FFA5E00), frame # 0
-[2020.09.25-22.23.17:001][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.099717 seconds
-[2020.09.25-22.23.17:006][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.09.25-22.23.17:007][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.09.25-22.23.17:007][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.09.25-22.23.17:405][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.09.25-22.23.17:430][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.09.25-22.23.17:482][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
-[2020.09.25-22.23.17:482][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
-[2020.09.25-22.23.17:482][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2020.09.25-22.23.17:533][  0]SourceControl: Source control is disabled
-[2020.09.25-22.23.19:279][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.09.25-22.23.19:302][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.25-22.23.19:302][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.25-22.23.19:361][  0]LogOcInput: OculusInput pre-init called
-[2020.09.25-22.23.19:372][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.09.25-22.23.19:372][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.09.25-22.23.19:446][  0]LogEngine: Initializing Engine...
-[2020.09.25-22.23.19:504][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.25-22.23.19:515][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.09.25-22.23.19:517][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.09.25-22.23.19:685][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.09.25-22.23.19:693][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.09.25-22.23.19:693][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E2A2F08600), frame # 0
-[2020.09.25-22.23.19:693][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E2A2EFAE80), frame # 0
-[2020.09.25-22.23.19:721][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.23.19:721][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.23.19:721][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.23.19:721][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.23.19:721][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.23.19:721][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.23.19:721][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.23.19:721][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.23.19:721][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.23.19:721][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.23.19:738][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.23.19:738][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.23.19:801][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.23.19:804][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.23.19:807][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.23.19:807][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.23.19:808][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.23.19:810][  0]LogInit: FAudioDevice initialized.
-[2020.09.25-22.23.19:810][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.09.25-22.23.19:979][  0]LogDerivedDataCache: Saved boot cache 0.17s 75MB C:/Users/edwar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.25-22.23.19:984][  0]LogInit: Texture streaming: Enabled
-[2020.09.25-22.23.20:001][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.09.25-22.23.20:002][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.09.25-22.23.20:004][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.09.25-22.23.20:071][  0]LogInit: Transaction tracking system initialized
-[2020.09.25-22.23.20:097][  0]BlueprintLog: New page: Editor Load
-[2020.09.25-22.23.20:184][  0]LocalizationService: Localization service is disabled
-[2020.09.25-22.23.20:428][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.09.25-22.23.20:428][  0]LogCook: Display: Mobile HDR setting 1
-[2020.09.25-22.23.20:621][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/' took 0.01s
-[2020.09.25-22.23.20:893][  0]LogUnrealEdMisc: Loading editor; pre map load, took 10.504
-[2020.09.25-22.23.20:893][  0]Cmd: MAP LOAD FILE="C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.25-22.23.20:893][  0]LightingResults: New page: Lighting Build
-[2020.09.25-22.23.20:894][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.23.20:894][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.23.20:894][  0]MapCheck: New page: Map Check
-[2020.09.25-22.23.20:894][  0]LightingResults: New page: Lighting Build
-[2020.09.25-22.23.20:904][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E2A2F08600), frame # 0
-[2020.09.25-22.23.20:904][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E2A2EFAE80), frame # 0
-[2020.09.25-22.23.20:904][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2020.09.25-22.23.21:264][  0]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.23.21:264][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E287F60200), frame # 0
-[2020.09.25-22.23.21:264][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E287EA7B00), frame # 0
-[2020.09.25-22.23.21:284][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.25-22.23.21:298][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
-[2020.09.25-22.23.21:299][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.25-22.23.21:299][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.172ms to complete.
-[2020.09.25-22.23.21:299][  0]LogFileHelpers: Loading map 'PBtZ' took 0.406
-[2020.09.25-22.23.21:310][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.921
-[2020.09.25-22.23.21:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.23.21:773][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.23.21:789][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.23.21:800][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.23.21:836][  0]LogCollectionManager: Loaded 0 collections in 0.001149 seconds
-[2020.09.25-22.23.21:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Collections/' took 0.00s
-[2020.09.25-22.23.21:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/Developers/edwar/Collections/' took 0.00s
-[2020.09.25-22.23.21:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/Collections/' took 0.00s
-[2020.09.25-22.23.21:905][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 3427 classes and 821 folders.
-[2020.09.25-22.23.21:975][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2020.09.25-22.23.24:022][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.09.25-22.23.24:023][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2020.09.25-22.23.24:347][  0]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.25-22.23.24:354][  0]LogSlate: Took 0.000532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.09.25-22.23.24:533][  0]LogSlate: Took 0.141747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.09.25-22.23.25:162][  0]LogRenderer: Reallocating scene render targets to support 912x340 Format 10 NumSamples 1 (Frame:1).
-[2020.09.25-22.23.25:314][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.09.25-22.23.25:315][  0]LogLoad: (Engine Initialization) Total time: 14.93 seconds
-[2020.09.25-22.23.25:315][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.09.25-22.23.25:389][  0]LogAssetRegistry: Asset discovery search completed in 9.5036 seconds
-[2020.09.25-22.23.25:392][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.09.25-22.23.25:409][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.09.25-22.23.25:479][  0]LogSlate: Took 0.019299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.25-22.23.33:486][523]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.23.33:516][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.23.33:539][523]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:23:33 PM)
-[2020.09.25-22.23.33:541][523]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.09.25-22.23.33:545][523]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.09.25-22.23.33:546][523]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.23.33:565][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019343s)
-[2020.09.25-22.23.33:567][523]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.23.33:567][523]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E2BC7BC400), frame # 523
-[2020.09.25-22.23.33:567][523]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E2921C39C0), frame # 523
-[2020.09.25-22.23.33:568][523]LogPlayLevel: PIE: World Init took: (0.002321s)
-[2020.09.25-22.23.33:568][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.021979s)
-[2020.09.25-22.23.33:583][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2020.09.25-22.23.33:584][523]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.23.33:584][523]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.23.33:584][523]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.23.33:584][523]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.23.33:584][523]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.23.33:584][523]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.23.33:585][523]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.23.33:585][523]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.23.33:585][523]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.23.33:585][523]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.23.33:594][523]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.23.33:594][523]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.23.33:646][523]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.23.33:646][523]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.23.33:646][523]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.23.33:646][523]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.23.33:647][523]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.23.33:664][523]LogInit: FAudioDevice initialized.
-[2020.09.25-22.23.34:400][523]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.23.34:402][523]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 0) at 2020.09.25-18.23.34
-[2020.09.25-22.23.34:402][523]LogWorld: Bringing up level for play took: 0.001010
-[2020.09.25-22.23.34:403][523]LogOnline: OSS: Creating online subsystem instance for: :Context_4
-[2020.09.25-22.23.34:422][523]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2020.09.25-22.23.34:424][523]PIE: Server logged in
-[2020.09.25-22.23.34:426][523]PIE: Play in editor total start time 0.911 seconds.
-[2020.09.25-22.23.39:782][881]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=4700.000 Z=100.000] for [BP_Zombear_C]
-[2020.09.25-22.23.53:695][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.23.53:695][772]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.23.53:696][772]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.23.53:696][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.23.53:705][772]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.23.53:706][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.23.53:741][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.23.53:742][772]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E2921C39C0), frame # 1772
-[2020.09.25-22.23.53:743][772]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E2BC7BC400), frame # 1772
-[2020.09.25-22.23.53:745][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
-[2020.09.25-22.23.53:776][773]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2020.09.25-22.23.55:260][836]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.25-22.23.55:286][836]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PotionBombTheZombs/Blueprints/BP_IcePotion.BP_IcePotion
-[2020.09.25-22.23.56:510][836]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
-[2020.09.25-22.23.57:896][836]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.09.25-22.24.01:960][985]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.24.01:991][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.24.01:991][985]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:24:01 PM)
-[2020.09.25-22.24.01:991][985]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.24.01:998][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007031s)
-[2020.09.25-22.24.02:000][985]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.24.02:000][985]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E312951C00), frame # 1985
-[2020.09.25-22.24.02:000][985]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E312956E80), frame # 1985
-[2020.09.25-22.24.02:000][985]LogPlayLevel: PIE: World Init took: (0.001428s)
-[2020.09.25-22.24.02:000][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.008573s)
-[2020.09.25-22.24.02:026][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
-[2020.09.25-22.24.02:027][985]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.24.02:027][985]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.24.02:027][985]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.24.02:027][985]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.24.02:027][985]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.24.02:027][985]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.24.02:027][985]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.24.02:027][985]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.24.02:029][985]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.24.02:029][985]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.24.02:033][985]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.24.02:033][985]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.24.02:079][985]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.24.02:079][985]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.24.02:079][985]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.24.02:079][985]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.24.02:080][985]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.24.02:096][985]LogInit: FAudioDevice initialized.
-[2020.09.25-22.24.02:102][985]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.24.02:104][985]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 0) at 2020.09.25-18.24.02
-[2020.09.25-22.24.02:104][985]LogWorld: Bringing up level for play took: 0.001164
-[2020.09.25-22.24.02:104][985]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2020.09.25-22.24.02:107][985]PIE: Server logged in
-[2020.09.25-22.24.02:110][985]PIE: Play in editor total start time 0.12 seconds.
-[2020.09.25-22.24.05:894][151]LogSlate: Took 0.025741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.09.25-22.24.09:339][320]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=4700.000 Z=100.000] for [BP_Zombear_C]
-[2020.09.25-22.24.18:804][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.24.18:805][731]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.24.18:805][731]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.24.18:805][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.24.18:816][731]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.24.18:819][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.24.18:840][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.24.18:869][731]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E312951C00), frame # 2731
-[2020.09.25-22.24.18:869][731]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E312956E80), frame # 2731
-[2020.09.25-22.24.18:871][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2020.09.25-22.24.18:916][732]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2020.09.25-22.24.32:992][361]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.24.33:048][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
-[2020.09.25-22.24.33:200][361]LogSlate: Took 0.112885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.09.25-22.24.34:858][423]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.24.34:890][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.24.34:890][423]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:24:34 PM)
-[2020.09.25-22.24.34:890][423]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.24.34:898][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007666s)
-[2020.09.25-22.24.34:899][423]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.24.34:899][423]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E3192F5600), frame # 3423
-[2020.09.25-22.24.34:899][423]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E319C0BC40), frame # 3423
-[2020.09.25-22.24.34:899][423]LogPlayLevel: PIE: World Init took: (0.001183s)
-[2020.09.25-22.24.34:899][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.008977s)
-[2020.09.25-22.24.34:923][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
-[2020.09.25-22.24.34:925][423]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.24.34:926][423]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.24.34:926][423]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.24.34:926][423]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.24.34:926][423]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.24.34:926][423]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.24.34:926][423]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.24.34:926][423]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.24.34:926][423]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.24.34:926][423]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.24.34:931][423]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.24.34:931][423]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.24.34:969][423]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.24.34:969][423]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.24.34:969][423]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.24.34:969][423]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.24.34:969][423]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.24.34:986][423]LogInit: FAudioDevice initialized.
-[2020.09.25-22.24.34:996][423]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.24.34:997][423]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 0) at 2020.09.25-18.24.34
-[2020.09.25-22.24.34:998][423]LogWorld: Bringing up level for play took: 0.000984
-[2020.09.25-22.24.34:998][423]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2020.09.25-22.24.35:000][423]PIE: Server logged in
-[2020.09.25-22.24.35:001][423]PIE: Play in editor total start time 0.113 seconds.
-[2020.09.25-22.24.39:860][656]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=4700.000 Z=100.000] for [BP_Zombear_C]
-[2020.09.25-22.24.56:477][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.24.56:477][449]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.24.56:478][449]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.24.56:478][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.24.56:488][449]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.24.56:490][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.24.56:535][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.24.56:537][449]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E319C0BC40), frame # 4449
-[2020.09.25-22.24.56:537][449]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E3192F5600), frame # 4449
-[2020.09.25-22.24.56:539][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
-[2020.09.25-22.24.56:587][450]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2020.09.25-22.25.00:163][659]LogEditorViewport: Clicking on Actor (LMB): BP_IcePotion_C (BP_IcePotion)
-[2020.09.25-22.25.13:212][131]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.25.13:282][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
-[2020.09.25-22.25.15:506][224]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.25.15:538][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.25.15:538][224]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:25:15 PM)
-[2020.09.25-22.25.15:539][224]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.25.15:548][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009795s)
-[2020.09.25-22.25.15:549][224]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.25.15:549][224]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E2AB69CE00), frame # 5224
-[2020.09.25-22.25.15:549][224]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E3191DDA80), frame # 5224
-[2020.09.25-22.25.15:550][224]LogPlayLevel: PIE: World Init took: (0.001101s)
-[2020.09.25-22.25.15:550][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.011041s)
-[2020.09.25-22.25.15:570][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
-[2020.09.25-22.25.15:572][224]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.25.15:572][224]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.25.15:572][224]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.25.15:572][224]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.25.15:572][224]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.25.15:572][224]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.25.15:572][224]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.25.15:572][224]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.25.15:572][224]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.25.15:572][224]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.25.15:578][224]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.25.15:578][224]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.25.15:694][224]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.25.15:694][224]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.25.15:694][224]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.25.15:694][224]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.25.15:695][224]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.25.15:715][224]LogInit: FAudioDevice initialized.
-[2020.09.25-22.25.15:725][224]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.25.15:727][224]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 0) at 2020.09.25-18.25.15
-[2020.09.25-22.25.15:727][224]LogWorld: Bringing up level for play took: 0.000910
-[2020.09.25-22.25.15:727][224]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2020.09.25-22.25.15:730][224]PIE: Server logged in
-[2020.09.25-22.25.15:731][224]PIE: Play in editor total start time 0.197 seconds.
-[2020.09.25-22.25.17:708][337]LogEditorViewport: Clicking on Actor (LMB): BP_IcePotion_C (BP_IcePotion)
-[2020.09.25-22.25.20:228][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.25.20:228][464]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.25.20:229][464]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.25.20:229][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.25.20:247][464]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.25.20:253][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.25.20:317][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.25.20:317][464]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E3191DDA80), frame # 5464
-[2020.09.25-22.25.20:317][464]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E2AB69CE00), frame # 5464
-[2020.09.25-22.25.20:319][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
-[2020.09.25-22.25.20:353][465]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2020.09.25-22.25.21:271][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
-[2020.09.25-22.25.21:586][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
-[2020.09.25-22.25.21:627][524]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZBF72B66C402A2A1B464B168035AFE6E2.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap'
-[2020.09.25-22.25.21:670][524]LogFileHelpers: Saving map 'PBtZ' took 0.115
-[2020.09.25-22.25.21:793][524]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ_BuiltDataB600077E430921D65B17519D2096C46C.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ_BuiltData.uasset'
-[2020.09.25-22.25.21:885][524]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/BP_IcePotion1C6A663641FF01088AEC81A62C6ABE7A.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/BP_IcePotion.uasset'
-[2020.09.25-22.25.21:918][524]AssetCheck: New page: Asset Save: multiple assets
-[2020.09.25-22.25.21:918][524]LogContentValidation: Display: Validating World /Game/PotionBombTheZombs/PBtZ.PBtZ
-[2020.09.25-22.25.21:918][524]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PotionBombTheZombs/PBtZ_BuiltData.PBtZ_BuiltData
-[2020.09.25-22.25.21:918][524]LogContentValidation: Display: Validating Blueprint /Game/PotionBombTheZombs/Blueprints/BP_IcePotion.BP_IcePotion
-[2020.09.25-22.25.29:350][785]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.25.29:407][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
-[2020.09.25-22.25.31:558][882]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.25.31:589][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.25.31:589][882]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:25:31 PM)
-[2020.09.25-22.25.31:589][882]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.25.31:597][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007145s)
-[2020.09.25-22.25.31:598][882]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.25.31:598][882]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E30A453200), frame # 5882
-[2020.09.25-22.25.31:598][882]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E31939C7C0), frame # 5882
-[2020.09.25-22.25.31:598][882]LogPlayLevel: PIE: World Init took: (0.001051s)
-[2020.09.25-22.25.31:598][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.008324s)
-[2020.09.25-22.25.31:619][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
-[2020.09.25-22.25.31:620][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.25.31:620][882]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.25.31:620][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.25.31:620][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.25.31:620][882]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.25.31:620][882]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.25.31:621][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.25.31:621][882]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.25.31:621][882]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.25.31:621][882]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.25.31:626][882]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.25.31:626][882]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.25.31:663][882]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.25.31:663][882]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.25.31:663][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.25.31:663][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.25.31:664][882]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.25.31:681][882]LogInit: FAudioDevice initialized.
-[2020.09.25-22.25.31:694][882]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.25.31:695][882]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 0) at 2020.09.25-18.25.31
-[2020.09.25-22.25.31:696][882]LogWorld: Bringing up level for play took: 0.000871
-[2020.09.25-22.25.31:696][882]LogOnline: OSS: Creating online subsystem instance for: :Context_12
-[2020.09.25-22.25.31:698][882]PIE: Server logged in
-[2020.09.25-22.25.31:699][882]PIE: Play in editor total start time 0.11 seconds.
-[2020.09.25-22.25.34:685][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.25.34:685][ 66]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.25.34:685][ 66]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.25.34:686][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.25.34:706][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.25.34:715][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.25.34:783][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.25.34:784][ 66]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E31939C7C0), frame # 6066
-[2020.09.25-22.25.34:784][ 66]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E30A453200), frame # 6066
-[2020.09.25-22.25.34:786][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
-[2020.09.25-22.25.34:816][ 67]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2020.09.25-22.26.17:178][811]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.26.17:213][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.26.17:213][811]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:26:17 PM)
-[2020.09.25-22.26.17:213][811]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.26.17:219][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007424s)
-[2020.09.25-22.26.17:220][811]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.26.17:220][811]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E312CDF000), frame # 7811
-[2020.09.25-22.26.17:220][811]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E31925DE40), frame # 7811
-[2020.09.25-22.26.17:221][811]LogPlayLevel: PIE: World Init took: (0.001294s)
-[2020.09.25-22.26.17:221][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.008843s)
-[2020.09.25-22.26.17:243][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
-[2020.09.25-22.26.17:245][811]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.26.17:245][811]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.26.17:245][811]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.26.17:245][811]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.26.17:245][811]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.26.17:245][811]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.26.17:245][811]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.26.17:245][811]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.26.17:246][811]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.26.17:246][811]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.26.17:251][811]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.26.17:251][811]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.26.17:290][811]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.26.17:290][811]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.26.17:290][811]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.26.17:290][811]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.26.17:291][811]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.26.17:306][811]LogInit: FAudioDevice initialized.
-[2020.09.25-22.26.17:318][811]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.26.17:320][811]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 0) at 2020.09.25-18.26.17
-[2020.09.25-22.26.17:320][811]LogWorld: Bringing up level for play took: 0.000858
-[2020.09.25-22.26.17:320][811]LogOnline: OSS: Creating online subsystem instance for: :Context_13
-[2020.09.25-22.26.17:323][811]PIE: Server logged in
-[2020.09.25-22.26.17:324][811]PIE: Play in editor total start time 0.113 seconds.
-[2020.09.25-22.26.22:184][126]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=4700.000 Z=100.000] for [BP_Zombear_C]
-[2020.09.25-22.26.30:194][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.26.30:194][626]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.26.30:195][626]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.26.30:195][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.26.30:210][626]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.26.30:214][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.26.30:235][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.26.30:261][626]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E31925DE40), frame # 8626
-[2020.09.25-22.26.30:261][626]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E312CDF000), frame # 8626
-[2020.09.25-22.26.30:263][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2020.09.25-22.26.30:321][627]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2020.09.25-22.26.36:399][797]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.26.36:420][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.26.36:420][797]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:26:36 PM)
-[2020.09.25-22.26.36:420][797]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.26.36:427][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006962s)
-[2020.09.25-22.26.36:428][797]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.26.36:428][797]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E3113AD200), frame # 8797
-[2020.09.25-22.26.36:428][797]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E2DBDBA0C0), frame # 8797
-[2020.09.25-22.26.36:428][797]LogPlayLevel: PIE: World Init took: (0.001061s)
-[2020.09.25-22.26.36:428][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.008159s)
-[2020.09.25-22.26.36:450][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
-[2020.09.25-22.26.36:452][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.26.36:452][797]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.26.36:452][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.26.36:452][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.26.36:452][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.26.36:452][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.26.36:452][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.26.36:452][797]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.26.36:453][797]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.26.36:453][797]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.26.36:459][797]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.26.36:459][797]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.26.36:519][797]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.26.36:519][797]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.26.36:519][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.26.36:519][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.26.36:520][797]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.26.36:536][797]LogInit: FAudioDevice initialized.
-[2020.09.25-22.26.36:547][797]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.26.36:547][797]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 0) at 2020.09.25-18.26.36
-[2020.09.25-22.26.36:547][797]LogWorld: Bringing up level for play took: 0.000854
-[2020.09.25-22.26.36:549][797]LogOnline: OSS: Creating online subsystem instance for: :Context_14
-[2020.09.25-22.26.36:550][797]PIE: Server logged in
-[2020.09.25-22.26.36:551][797]PIE: Play in editor total start time 0.132 seconds.
-[2020.09.25-22.26.41:394][312]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=4700.000 Z=100.000] for [BP_Zombear_C]
-[2020.09.25-22.26.49:536][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.26.49:536][170]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.26.49:537][170]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.26.49:537][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.26.49:551][170]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.26.49:556][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.26.49:585][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.26.49:608][170]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E2DBDBA0C0), frame # 10170
-[2020.09.25-22.26.49:608][170]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E3113AD200), frame # 10170
-[2020.09.25-22.26.49:609][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
-[2020.09.25-22.26.49:650][171]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2020.09.25-22.26.54:660][672]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2020.09.25-22.27.03:409][501]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.27.03:428][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.27.03:428][501]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:27:03 PM)
-[2020.09.25-22.27.03:428][501]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.27.03:435][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006874s)
-[2020.09.25-22.27.03:436][501]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.27.03:436][501]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E312AFE400), frame # 11501
-[2020.09.25-22.27.03:436][501]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E3192EAD40), frame # 11501
-[2020.09.25-22.27.03:436][501]LogPlayLevel: PIE: World Init took: (0.001012s)
-[2020.09.25-22.27.03:436][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.007996s)
-[2020.09.25-22.27.03:457][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
-[2020.09.25-22.27.03:459][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.27.03:459][501]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.27.03:459][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.27.03:459][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.27.03:459][501]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.27.03:459][501]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.27.03:459][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.27.03:459][501]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.27.03:460][501]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.27.03:460][501]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.27.03:465][501]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.27.03:465][501]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.27.03:538][501]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.27.03:538][501]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.27.03:538][501]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.27.03:538][501]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.27.03:539][501]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.27.03:555][501]LogInit: FAudioDevice initialized.
-[2020.09.25-22.27.03:564][501]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.27.03:566][501]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 0) at 2020.09.25-18.27.03
-[2020.09.25-22.27.03:566][501]LogWorld: Bringing up level for play took: 0.001078
-[2020.09.25-22.27.03:567][501]LogOnline: OSS: Creating online subsystem instance for: :Context_15
-[2020.09.25-22.27.03:570][501]PIE: Server logged in
-[2020.09.25-22.27.03:570][501]PIE: Play in editor total start time 0.142 seconds.
-[2020.09.25-22.27.08:674][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.27.08:674][965]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.27.08:674][965]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.27.08:675][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.27.08:687][965]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.27.08:689][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.27.08:728][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.27.08:729][965]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E3192EAD40), frame # 11965
-[2020.09.25-22.27.08:729][965]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E312AFE400), frame # 11965
-[2020.09.25-22.27.08:731][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
-[2020.09.25-22.27.08:761][966]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2020.09.25-22.27.10:114][108]Cmd: DELETE
-[2020.09.25-22.27.10:114][108]Cmd: ACTOR DELETE
-[2020.09.25-22.27.10:162][108]LogEditorActor: Deleted Actor: Brush
-[2020.09.25-22.27.10:208][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
-[2020.09.25-22.27.10:233][108]LogEditorActor: Deleted 1 Actors (0.119 secs)
-[2020.09.25-22.27.15:957][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
-[2020.09.25-22.27.16:226][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
-[2020.09.25-22.27.16:261][665]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZC26A7BC44FFB1A8C2384D3875ABCF08A.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap'
-[2020.09.25-22.27.16:298][665]LogFileHelpers: Saving map 'PBtZ' took 0.094
-[2020.09.25-22.27.16:380][665]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ_BuiltDataBDF1AE4C4BAF3C5B05C95186BC8F63A4.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ_BuiltData.uasset'
-[2020.09.25-22.27.16:422][665]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/BP_IcePotionAD0C74024FDBD7972F515CBD16F7D147.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/BP_IcePotion.uasset'
-[2020.09.25-22.27.16:445][665]AssetCheck: New page: Asset Save: multiple assets
-[2020.09.25-22.27.16:445][665]LogContentValidation: Display: Validating World /Game/PotionBombTheZombs/PBtZ.PBtZ
-[2020.09.25-22.27.16:445][665]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PotionBombTheZombs/PBtZ_BuiltData.PBtZ_BuiltData
-[2020.09.25-22.27.16:445][665]LogContentValidation: Display: Validating Blueprint /Game/PotionBombTheZombs/Blueprints/BP_IcePotion.BP_IcePotion
-[2020.09.25-22.27.18:550][866]LogEditorViewport: Clicking on Actor (LMB): BP_IcePotion_C (BP_IcePotion)
-[2020.09.25-22.27.18:598][868]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
-[2020.09.25-22.27.32:654][750]LogRenderer: Reallocating scene render targets to support 912x536 Format 10 NumSamples 1 (Frame:1).
-[2020.09.25-22.27.33:042][770]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.27.33:108][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
-[2020.09.25-22.27.40:193][129]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.27.40:255][129]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
-[2020.09.25-22.28.00:658][256]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.28.00:725][256]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2020.09.25-22.28.02:373][360]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.28.02:394][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.28.02:394][360]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:28:02 PM)
-[2020.09.25-22.28.02:394][360]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.28.02:401][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006517s)
-[2020.09.25-22.28.02:402][360]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.28.02:402][360]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E315F8D800), frame # 15360
-[2020.09.25-22.28.02:402][360]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E319452340), frame # 15360
-[2020.09.25-22.28.02:402][360]LogPlayLevel: PIE: World Init took: (0.001144s)
-[2020.09.25-22.28.02:402][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.007772s)
-[2020.09.25-22.28.02:423][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
-[2020.09.25-22.28.02:424][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.28.02:424][360]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.28.02:424][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.28.02:424][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.28.02:424][360]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.28.02:424][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.28.02:424][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.28.02:424][360]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.28.02:425][360]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.28.02:425][360]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.28.02:430][360]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.28.02:430][360]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.28.02:466][360]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.28.02:466][360]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.28.02:466][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.28.02:466][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.28.02:467][360]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.28.02:483][360]LogInit: FAudioDevice initialized.
-[2020.09.25-22.28.02:495][360]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.28.02:496][360]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 0) at 2020.09.25-18.28.02
-[2020.09.25-22.28.02:497][360]LogWorld: Bringing up level for play took: 0.000985
-[2020.09.25-22.28.02:497][360]LogOnline: OSS: Creating online subsystem instance for: :Context_16
-[2020.09.25-22.28.02:499][360]PIE: Server logged in
-[2020.09.25-22.28.02:500][360]PIE: Play in editor total start time 0.107 seconds.
-[2020.09.25-22.28.18:334][407]LogSlate: Window 'BP_IcePotion' being destroyed
-[2020.09.25-22.28.18:342][407]LogSlate: Window 'BP_IcePotion' being destroyed
-[2020.09.25-22.28.18:342][407]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.28.18:342][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.28.19:714][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.28.19:715][519]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.28.19:715][519]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.28.19:715][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.28.19:721][519]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.28.19:725][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.28.19:770][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.28.19:771][519]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E319452340), frame # 16519
-[2020.09.25-22.28.19:771][519]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E315F8D800), frame # 16519
-[2020.09.25-22.28.19:774][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2020.09.25-22.28.19:808][520]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2020.09.25-22.28.39:228][740]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.28.39:272][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.28.39:273][740]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:28:39 PM)
-[2020.09.25-22.28.39:273][740]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.28.39:290][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017452s)
-[2020.09.25-22.28.39:292][740]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.28.39:292][740]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E30AD65800), frame # 16740
-[2020.09.25-22.28.39:292][740]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E315FB9580), frame # 16740
-[2020.09.25-22.28.39:293][740]LogPlayLevel: PIE: World Init took: (0.002443s)
-[2020.09.25-22.28.39:293][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.020155s)
-[2020.09.25-22.28.39:338][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
-[2020.09.25-22.28.39:340][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.28.39:340][740]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.28.39:340][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.28.39:340][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.28.39:340][740]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.28.39:340][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.28.39:340][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.28.39:340][740]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.28.39:341][740]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.28.39:341][740]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.28.39:348][740]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.28.39:348][740]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.28.39:389][740]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.28.39:389][740]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.28.39:389][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.28.39:389][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.28.39:390][740]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.28.39:405][740]LogInit: FAudioDevice initialized.
-[2020.09.25-22.28.39:410][740]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.28.39:412][740]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 60) at 2020.09.25-18.28.39
-[2020.09.25-22.28.39:412][740]LogWorld: Bringing up level for play took: 0.001204
-[2020.09.25-22.28.39:412][740]LogOnline: OSS: Creating online subsystem instance for: :Context_17
-[2020.09.25-22.28.39:415][740]PIE: Server logged in
-[2020.09.25-22.28.39:416][740]PIE: Play in editor total start time 0.145 seconds.
-[2020.09.25-22.29.02:236][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.29.02:236][ 42]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.29.02:236][ 42]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.29.02:236][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.29.02:248][ 42]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.29.02:251][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.29.02:271][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.29.02:295][ 42]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E315FB9580), frame # 18042
-[2020.09.25-22.29.02:295][ 42]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E30AD65800), frame # 18042
-[2020.09.25-22.29.02:296][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
-[2020.09.25-22.29.02:331][ 43]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2020.09.25-22.29.04:512][168]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.29.04:543][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.29.04:544][168]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:29:04 PM)
-[2020.09.25-22.29.04:544][168]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.29.04:550][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006715s)
-[2020.09.25-22.29.04:551][168]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.29.04:551][168]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E300E5FA00), frame # 18168
-[2020.09.25-22.29.04:551][168]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E3195AD6C0), frame # 18168
-[2020.09.25-22.29.04:552][168]LogPlayLevel: PIE: World Init took: (0.001048s)
-[2020.09.25-22.29.04:552][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.007880s)
-[2020.09.25-22.29.04:571][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
-[2020.09.25-22.29.04:572][168]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.29.04:572][168]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.29.04:572][168]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.29.04:572][168]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.29.04:572][168]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.29.04:572][168]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.29.04:572][168]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.29.04:572][168]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.29.04:573][168]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.29.04:573][168]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.29.04:578][168]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.29.04:578][168]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.29.04:615][168]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.29.04:615][168]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.29.04:615][168]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.29.04:615][168]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.29.04:615][168]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.29.04:630][168]LogInit: FAudioDevice initialized.
-[2020.09.25-22.29.04:639][168]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.29.04:641][168]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 60) at 2020.09.25-18.29.04
-[2020.09.25-22.29.04:641][168]LogWorld: Bringing up level for play took: 0.000926
-[2020.09.25-22.29.04:641][168]LogOnline: OSS: Creating online subsystem instance for: :Context_18
-[2020.09.25-22.29.04:643][168]PIE: Server logged in
-[2020.09.25-22.29.04:644][168]PIE: Play in editor total start time 0.102 seconds.
-[2020.09.25-22.29.16:915][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.29.16:915][870]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.29.16:915][870]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.29.16:915][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.29.16:925][870]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.29.16:928][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.29.16:967][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.29.16:968][870]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E3195AD6C0), frame # 18870
-[2020.09.25-22.29.16:968][870]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E300E5FA00), frame # 18870
-[2020.09.25-22.29.16:969][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
-[2020.09.25-22.29.16:996][871]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2020.09.25-22.29.19:131][994]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.29.19:159][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.29.19:159][994]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:29:19 PM)
-[2020.09.25-22.29.19:159][994]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.29.19:168][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009297s)
-[2020.09.25-22.29.19:169][994]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.29.19:169][994]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E30AD66400), frame # 18994
-[2020.09.25-22.29.19:169][994]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E3160C0400), frame # 18994
-[2020.09.25-22.29.19:169][994]LogPlayLevel: PIE: World Init took: (0.001235s)
-[2020.09.25-22.29.19:170][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.010687s)
-[2020.09.25-22.29.19:187][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
-[2020.09.25-22.29.19:188][994]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.29.19:189][994]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.29.19:189][994]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.29.19:189][994]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.29.19:189][994]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.29.19:189][994]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.29.19:189][994]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.29.19:189][994]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.29.19:189][994]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.29.19:189][994]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.29.19:194][994]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.29.19:195][994]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.29.19:231][994]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.29.19:231][994]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.29.19:231][994]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.29.19:231][994]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.29.19:232][994]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.29.19:249][994]LogInit: FAudioDevice initialized.
-[2020.09.25-22.29.19:267][994]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.29.19:272][994]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 60) at 2020.09.25-18.29.19
-[2020.09.25-22.29.19:272][994]LogWorld: Bringing up level for play took: 0.003111
-[2020.09.25-22.29.19:273][994]LogOnline: OSS: Creating online subsystem instance for: :Context_19
-[2020.09.25-22.29.19:280][994]PIE: Server logged in
-[2020.09.25-22.29.19:281][994]PIE: Play in editor total start time 0.123 seconds.
-[2020.09.25-22.29.40:305][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.29.40:306][188]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.29.40:306][188]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.29.40:306][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.29.40:320][188]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.29.40:325][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.29.40:345][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.29.40:373][188]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E3160C0400), frame # 20188
-[2020.09.25-22.29.40:373][188]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E30AD66400), frame # 20188
-[2020.09.25-22.29.40:376][188]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
-[2020.09.25-22.29.40:405][189]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2020.09.25-22.29.42:606][289]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
-[2020.09.25-22.29.42:995][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
-[2020.09.25-22.29.43:035][289]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ04F457194C7BE9AE3CD1A68C85ED9B79.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap'
-[2020.09.25-22.29.43:085][289]LogFileHelpers: Saving map 'PBtZ' took 0.114
-[2020.09.25-22.29.43:187][289]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ_BuiltDataC30BDA7244D4251EA234C2BFC97C01F2.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ_BuiltData.uasset'
-[2020.09.25-22.29.43:243][289]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/BP_IcePotionCBF0D035498AE9439EA1EB9A67D01262.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/BP_IcePotion.uasset'
-[2020.09.25-22.29.43:272][289]AssetCheck: New page: Asset Save: multiple assets
-[2020.09.25-22.29.43:272][289]LogContentValidation: Display: Validating World /Game/PotionBombTheZombs/PBtZ.PBtZ
-[2020.09.25-22.29.43:272][289]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PotionBombTheZombs/PBtZ_BuiltData.PBtZ_BuiltData
-[2020.09.25-22.29.43:272][289]LogContentValidation: Display: Validating Blueprint /Game/PotionBombTheZombs/Blueprints/BP_IcePotion.BP_IcePotion
-[2020.09.25-22.29.44:005][312]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PotionBombTheZombs/Blueprints/BP_IcePotion.BP_IcePotion
-[2020.09.25-22.29.54:460][707]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.29.54:537][707]LogUObjectHash: Compacting FUObjectHashTables data took   6.30ms
-[2020.09.25-22.30.19:056][567]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.30.19:128][567]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
-[2020.09.25-22.30.21:976][667]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.30.22:006][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.30.22:006][667]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:30:22 PM)
-[2020.09.25-22.30.22:006][667]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.30.22:013][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006944s)
-[2020.09.25-22.30.22:014][667]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.30.22:014][667]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E314199800), frame # 21667
-[2020.09.25-22.30.22:014][667]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E30AB81940), frame # 21667
-[2020.09.25-22.30.22:014][667]LogPlayLevel: PIE: World Init took: (0.001304s)
-[2020.09.25-22.30.22:014][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.008382s)
-[2020.09.25-22.30.22:038][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2020.09.25-22.30.22:039][667]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.30.22:039][667]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.30.22:039][667]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.30.22:039][667]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.30.22:039][667]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.30.22:039][667]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.30.22:039][667]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.30.22:039][667]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.30.22:040][667]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.30.22:040][667]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.30.22:047][667]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.30.22:047][667]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.30.22:088][667]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.30.22:089][667]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.30.22:089][667]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.30.22:089][667]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.30.22:089][667]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.30.22:109][667]LogInit: FAudioDevice initialized.
-[2020.09.25-22.30.22:116][667]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.30.22:118][667]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 60) at 2020.09.25-18.30.22
-[2020.09.25-22.30.22:118][667]LogWorld: Bringing up level for play took: 0.001011
-[2020.09.25-22.30.22:118][667]LogOnline: OSS: Creating online subsystem instance for: :Context_21
-[2020.09.25-22.30.22:121][667]PIE: Server logged in
-[2020.09.25-22.30.22:123][667]PIE: Play in editor total start time 0.118 seconds.
-[2020.09.25-22.30.24:949][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
-[2020.09.25-22.30.25:268][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
-[2020.09.25-22.30.25:311][809]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ6AEA17FA43AD415CBCE738BC9809EBAA.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap'
-[2020.09.25-22.30.25:347][809]LogFileHelpers: Saving map 'PBtZ' took 0.104
-[2020.09.25-22.30.25:426][809]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ_BuiltDataC3A658B1463727F6EBE56DAEC222C297.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ_BuiltData.uasset'
-[2020.09.25-22.30.25:478][809]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/BP_IcePotion42E778E143DE0F4C9F866F9495D12DA1.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/BP_IcePotion.uasset'
-[2020.09.25-22.30.25:490][809]AssetCheck: New page: Asset Save: multiple assets
-[2020.09.25-22.30.25:490][809]LogContentValidation: Display: Validating World /Game/PotionBombTheZombs/PBtZ.PBtZ
-[2020.09.25-22.30.25:491][809]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PotionBombTheZombs/PBtZ_BuiltData.PBtZ_BuiltData
-[2020.09.25-22.30.25:491][809]LogContentValidation: Display: Validating Blueprint /Game/PotionBombTheZombs/Blueprints/BP_IcePotion.BP_IcePotion
-[2020.09.25-22.30.41:626][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.30.41:626][715]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.30.41:628][715]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.30.41:628][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.30.41:645][715]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.30.41:651][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.30.41:717][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.30.41:718][715]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E30AB81940), frame # 22715
-[2020.09.25-22.30.41:718][715]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E314199800), frame # 22715
-[2020.09.25-22.30.41:720][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
-[2020.09.25-22.30.41:752][716]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2020.09.25-22.33.32:758][844]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.33.32:799][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
-[2020.09.25-22.33.42:956][427]BlueprintLog: New page: Compile BP_IcePotion
-[2020.09.25-22.33.42:999][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
-[2020.09.25-22.33.45:218][551]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.33.45:238][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.33.45:238][551]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:33:45 PM)
-[2020.09.25-22.33.45:238][551]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.33.45:246][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007136s)
-[2020.09.25-22.33.45:246][551]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.33.45:246][551]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E322F78200), frame # 27551
-[2020.09.25-22.33.45:247][551]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E319C2A980), frame # 27551
-[2020.09.25-22.33.45:247][551]LogPlayLevel: PIE: World Init took: (0.001053s)
-[2020.09.25-22.33.45:247][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.008329s)
-[2020.09.25-22.33.45:269][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
-[2020.09.25-22.33.45:270][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.33.45:270][551]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.33.45:270][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.33.45:270][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.33.45:270][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.33.45:270][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.33.45:270][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.33.45:270][551]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.33.45:271][551]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.33.45:271][551]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.33.45:278][551]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.33.45:278][551]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.33.45:318][551]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.33.45:318][551]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.33.45:318][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.33.45:318][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.33.45:319][551]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.33.45:335][551]LogInit: FAudioDevice initialized.
-[2020.09.25-22.33.45:345][551]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.33.45:346][551]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 60) at 2020.09.25-18.33.45
-[2020.09.25-22.33.45:347][551]LogWorld: Bringing up level for play took: 0.000914
-[2020.09.25-22.33.45:347][551]LogOnline: OSS: Creating online subsystem instance for: :Context_22
-[2020.09.25-22.33.45:349][551]PIE: Server logged in
-[2020.09.25-22.33.45:350][551]PIE: Play in editor total start time 0.112 seconds.
-[2020.09.25-22.34.09:104][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.34.09:104][969]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.34.09:104][969]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.34.09:104][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.34.09:110][969]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.34.09:114][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.34.09:156][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.34.09:157][969]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E319C2A980), frame # 28969
-[2020.09.25-22.34.09:157][969]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E322F78200), frame # 28969
-[2020.09.25-22.34.09:159][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
-[2020.09.25-22.34.09:187][970]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2020.09.25-22.34.19:100][103]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.09.25-22.34.43:669][795]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.34.43:694][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.34.43:694][795]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:34:43 PM)
-[2020.09.25-22.34.43:694][795]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.34.43:701][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006699s)
-[2020.09.25-22.34.43:702][795]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.34.43:702][795]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E2AB69D600), frame # 29795
-[2020.09.25-22.34.43:702][795]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E314130E00), frame # 29795
-[2020.09.25-22.34.43:702][795]LogPlayLevel: PIE: World Init took: (0.001327s)
-[2020.09.25-22.34.43:702][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.008165s)
-[2020.09.25-22.34.43:726][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
-[2020.09.25-22.34.43:727][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.34.43:727][795]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.34.43:727][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.34.43:727][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.34.43:727][795]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.34.43:727][795]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.34.43:727][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.34.43:727][795]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.34.43:727][795]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.34.43:727][795]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.34.43:733][795]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.34.43:733][795]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.34.43:775][795]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.34.43:775][795]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.34.43:775][795]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.34.43:775][795]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.34.43:776][795]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.34.43:791][795]LogInit: FAudioDevice initialized.
-[2020.09.25-22.34.43:796][795]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.34.43:798][795]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 60) at 2020.09.25-18.34.43
-[2020.09.25-22.34.43:798][795]LogWorld: Bringing up level for play took: 0.000868
-[2020.09.25-22.34.43:798][795]LogOnline: OSS: Creating online subsystem instance for: :Context_23
-[2020.09.25-22.34.43:801][795]PIE: Server logged in
-[2020.09.25-22.34.43:801][795]PIE: Play in editor total start time 0.108 seconds.
-[2020.09.25-22.35.06:214][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.35.06:214][ 51]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.35.06:215][ 51]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.35.06:215][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.35.06:225][ 51]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.35.06:228][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.35.06:249][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.35.06:271][ 51]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E314130E00), frame # 31051
-[2020.09.25-22.35.06:271][ 51]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E2AB69D600), frame # 31051
-[2020.09.25-22.35.06:273][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
-[2020.09.25-22.35.06:304][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2020.09.25-22.35.08:708][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
-[2020.09.25-22.35.09:083][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
-[2020.09.25-22.35.09:131][166]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ690E251447DC3CBF6C96C28AFC08EC32.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap'
-[2020.09.25-22.35.09:170][166]LogFileHelpers: Saving map 'PBtZ' took 0.113
-[2020.09.25-22.35.09:259][166]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ_BuiltData2B52F73342673BD0F2685DA846FB4C57.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ_BuiltData.uasset'
-[2020.09.25-22.35.09:301][166]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/BP_IcePotionDE49DABB4664AFFE9A8E6D8A1B80AB73.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/BP_IcePotion.uasset'
-[2020.09.25-22.35.09:335][166]AssetCheck: New page: Asset Save: multiple assets
-[2020.09.25-22.35.09:335][166]LogContentValidation: Display: Validating World /Game/PotionBombTheZombs/PBtZ.PBtZ
-[2020.09.25-22.35.09:335][166]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PotionBombTheZombs/PBtZ_BuiltData.PBtZ_BuiltData
-[2020.09.25-22.35.09:335][166]LogContentValidation: Display: Validating Blueprint /Game/PotionBombTheZombs/Blueprints/BP_IcePotion.BP_IcePotion
-[2020.09.25-22.35.16:261][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:261][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:261][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:261][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:261][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:261][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:261][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.16:262][427]SourceControl: fatal: D:/Epic_Launcher/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Epic_Launcher/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs'
-[2020.09.25-22.35.25:131][427]LogSlate: Window 'Submit Files' being destroyed
-[2020.09.25-22.35.26:685][427]LogSourceControl: commit successful: [master 086c9e0] Ice Potion Update
-[2020.09.25-22.35.27:003][427]SourceControl: [master 086c9e0] Ice Potion Update
-[2020.09.25-22.35.27:003][427]SourceControl:  3 files changed, 2 insertions(+), 1 deletion(-)
-[2020.09.25-22.35.27:003][427]SourceControl:  rewrite PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/BP_IcePotion.uasset (94%)
-[2020.09.25-22.35.27:003][427]SourceControl:  rewrite PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap (87%)
-[2020.09.25-22.35.27:016][427]SourceControl: Commited [master 086c9e0] Ice Potion Update.
-[2020.09.25-22.36.07:227][656]LogTemp: Repeating last play command: Simulate
-[2020.09.25-22.36.07:267][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.25-22.36.07:267][656]PIE: New page: SIE session: PBtZ (Sep 25, 2020, 2:36:07 PM)
-[2020.09.25-22.36.07:267][656]LogPlayLevel: Creating play world package: /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.36.07:275][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007544s)
-[2020.09.25-22.36.07:276][656]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.25-22.36.07:276][656]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E30AD66E00), frame # 31656
-[2020.09.25-22.36.07:276][656]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E2FFF6CE00), frame # 31656
-[2020.09.25-22.36.07:276][656]LogPlayLevel: PIE: World Init took: (0.001282s)
-[2020.09.25-22.36.07:276][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PotionBombTheZombs/PBtZ.PBtZ to /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ (0.008957s)
-[2020.09.25-22.36.07:297][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
-[2020.09.25-22.36.07:299][656]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.25-22.36.07:299][656]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.25-22.36.07:299][656]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.25-22.36.07:299][656]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.25-22.36.07:299][656]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.25-22.36.07:299][656]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.25-22.36.07:299][656]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.25-22.36.07:299][656]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.25-22.36.07:300][656]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.25-22.36.07:300][656]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.25-22.36.07:307][656]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.25-22.36.07:307][656]LogAudioMixer: Display: 1: FrontRight
-[2020.09.25-22.36.07:348][656]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.25-22.36.07:348][656]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.25-22.36.07:348][656]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.25-22.36.07:348][656]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.25-22.36.07:349][656]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.25-22.36.07:364][656]LogInit: FAudioDevice initialized.
-[2020.09.25-22.36.07:377][656]LogLoad: Game class is 'BP_PotionBomb_C'
-[2020.09.25-22.36.07:382][656]LogWorld: Bringing World /Game/PotionBombTheZombs/UEDPIE_0_PBtZ.PBtZ up for play (max tick rate 60) at 2020.09.25-18.36.07
-[2020.09.25-22.36.07:383][656]LogWorld: Bringing up level for play took: 0.003022
-[2020.09.25-22.36.07:384][656]LogOnline: OSS: Creating online subsystem instance for: :Context_24
-[2020.09.25-22.36.07:390][656]PIE: Server logged in
-[2020.09.25-22.36.07:392][656]PIE: Play in editor total start time 0.126 seconds.
-[2020.09.25-22.36.21:084][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.36.21:084][423]LogWorld: BeginTearingDown for /Game/PotionBombTheZombs/UEDPIE_0_PBtZ
-[2020.09.25-22.36.21:084][423]LogWorld: UWorld::CleanupWorld for PBtZ, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-22.36.21:084][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.36.21:089][423]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.09.25-22.36.21:092][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-22.36.21:141][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.25-22.36.21:141][423]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E2FFF6CE00), frame # 32423
-[2020.09.25-22.36.21:142][423]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E30AD66E00), frame # 32423
-[2020.09.25-22.36.21:147][423]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
-[2020.09.25-22.36.21:186][424]LogPlayLevel: Display: Destroying online subsystem :Context_24
-[2020.09.25-22.39.24:211][ 31]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.09.25-22.39.40:935][ 81]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.09.25-22.40.22:747][206]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.09.25-22.40.39:461][256]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.09.25-23.31.48:172][553]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.09.25-23.32.04:610][602]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.09.25-23.32.31:508][682]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.09.25-23.32.34:200][719]LogSlate: Window 'BP_IcePotion' being destroyed
-[2020.09.25-23.32.34:235][719]LogSlate: Window 'BP_IcePotion' being destroyed
-[2020.09.25-23.32.34:306][719]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2020.09.25-23.32.34:307][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.25-23.33.28:597][614]LogSlate: Window 'Source Control Login' being destroyed
-[2020.09.26-00.17.17:587][ 13]LogEditorViewport: Clicking on Actor (LMB): BP_IcePotion_C (BP_IcePotion)
-[2020.09.26-00.17.20:219][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_IcePotion_C (BP_IcePotion)
-[2020.09.26-00.17.22:001][101]Cmd: DELETE
-[2020.09.26-00.17.22:026][101]Cmd: ACTOR DELETE
-[2020.09.26-00.17.22:878][101]LogEditorActor: Deleted Actor: BP_IcePotion_C
-[2020.09.26-00.17.25:958][101]LogUObjectHash: Compacting FUObjectHashTables data took  49.51ms
-[2020.09.26-00.17.26:299][101]LogEditorActor: Deleted 1 Actors (3.898 secs)
-[2020.09.26-00.18.00:024][223]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
-[2020.09.26-00.18.00:761][223]LogSavePackage: Moving 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ_Auto1A1F830434091E3189DC7DC883B6A1C09.tmp' to 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Autosaves/Game/PotionBombTheZombs/PBtZ_Auto1.umap'
-[2020.09.26-00.18.00:874][223]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PotionBombTheZombs/PBtZ' took 0.890
-[2020.09.26-00.18.00:874][223]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.890
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-00.25.02:490][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.26-00.25.02:490][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-00.25.02:490][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-00.25.02:494][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.26-00.25.02:494][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.26-00.25.02:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.26-00.25.02:496][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.26-00.25.02:496][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.26-00.25.02:496][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.26-00.25.02:497][  0]LogHAL: Display: Platform has ~ 8 GB [8466898944 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.26-00.25.02:497][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.26-00.25.02:497][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.26-00.25.02:497][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.26-00.25.02:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.26-00.25.02:499][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-00.25.02:499][  0]LogInit: Computer: LAPTOP-50LQP7G3
+[2020.09.26-00.25.02:500][  0]LogInit: User: edwar
+[2020.09.26-00.25.02:500][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.09.26-00.25.02:500][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.26-00.25.02:500][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.09.26-00.25.02:500][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.26-00.25.02:500][  0]LogMemory: Process Physical Memory: 114.23 MB used, 114.23 MB peak
+[2020.09.26-00.25.02:500][  0]LogMemory: Process Virtual Memory: 96.43 MB used, 96.43 MB peak
+[2020.09.26-00.25.02:500][  0]LogMemory: Physical Memory: 7364.20 MB used,  710.46 MB free, 8074.66 MB total
+[2020.09.26-00.25.02:500][  0]LogMemory: Virtual Memory: 5143.14 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.09.26-00.25.02:509][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.26-00.25.02:566][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.26-00.25.02:567][  0]LogInit: Using OS detected language (en-US).
+[2020.09.26-00.25.02:567][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.26-00.25.02:569][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.26-00.25.02:822][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.26-00.25.02:876][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.26-00.25.02:876][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.26-00.25.03:176][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.26-00.25.03:176][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.26-00.25.03:176][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.26-00.25.03:176][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.26-00.25.03:281][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.09.26-00.25.03:281][  0]LogD3D11RHI:       4018/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.26-00.25.03:298][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.09.26-00.25.03:298][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.26-00.25.03:301][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.26-00.25.03:301][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.26-00.25.03:301][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.26-00.25.03:346][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.26-00.25.03:346][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2020.09.26-00.25.03:346][  0]LogWindows: EnumDisplayDevices:
+[2020.09.26-00.25.03:400][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.09.26-00.25.03:402][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.09.26-00.25.03:405][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.09.26-00.25.03:406][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.09.26-00.25.03:408][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.09.26-00.25.03:409][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.09.26-00.25.03:410][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.09.26-00.25.03:410][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.26-00.25.03:410][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.09.26-00.25.03:410][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2020.09.26-00.25.03:411][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2020.09.26-00.25.03:411][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.09.26-00.25.03:484][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.26-00.25.03:486][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.26-00.25.03:486][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.26-00.25.03:486][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.26-00.25.03:506][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.26-00.25.04:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.26-00.25.04:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.26-00.25.04:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.26-00.25.04:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.26-00.25.04:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.26-00.25.04:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.26-00.25.04:534][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.26-00.25.04:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.26-00.25.04:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.26-00.25.04:565][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.26-00.25.04:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.26-00.25.04:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.26-00.25.04:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.26-00.25.04:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.26-00.25.04:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.26-00.25.04:632][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.26-00.25.04:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.26-00.25.04:653][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.26-00.25.04:663][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.26-00.25.04:663][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.26-00.25.04:673][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.26-00.25.04:749][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Intermediate/Shaders/WorkingDirectory/20776/).
+[2020.09.26-00.25.04:749][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/edwar/AppData/Local/Temp/UnrealShaderWorkingDir/87BDF4E4464F82B36B8B13991918FA69/'.
+[2020.09.26-00.25.04:750][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.26-00.25.04:750][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.26-00.25.04:750][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.26-00.25.05:675][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.26-00.25.05:763][  0]LogDerivedDataCache: Loaded boot cache 0.09s 75MB C:/Users/edwar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.26-00.25.05:763][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/edwar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.26-00.25.05:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.26-00.25.05:763][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.26-00.25.05:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.26-00.25.05:763][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.26-00.25.05:776][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.26-00.25.05:777][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.26-00.25.05:777][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.26-00.25.05:822][  0]LogDerivedDataCache: Using Local data cache path C:/Users/edwar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.26-00.25.05:822][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.26-00.25.05:822][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.26-00.25.05:891][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.26-00.25.05:959][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.26-00.25.06:121][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2020.09.26-00.25.06:744][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.26-00.25.08:835][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.26-00.25.08:835][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.26-00.25.08:835][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.26-00.25.08:835][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.26-00.25.08:835][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.26-00.25.09:525][  0]LogNetVersion: PotionBombTheZombs 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2111352588)
+[2020.09.26-00.25.23:287][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000014C8464ED80), frame # 0
+[2020.09.26-00.25.23:287][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000014C84602AC0), frame # 0
+[2020.09.26-00.25.23:294][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014C84651C00), frame # 0
+[2020.09.26-00.25.23:597][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.196354 seconds
+[2020.09.26-00.25.23:605][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.26-00.25.23:606][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.26-00.25.23:606][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.26-00.25.33:027][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.26-00.25.33:043][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.26-00.25.33:296][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2020.09.26-00.25.33:313][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2020.09.26-00.25.33:313][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2020.09.26-00.25.33:552][  0]SourceControl: Source control is disabled
+[2020.09.26-00.25.44:141][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.26-00.25.44:231][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.26-00.25.44:231][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.26-00.25.44:519][  0]LogOcInput: OculusInput pre-init called
+[2020.09.26-00.25.44:565][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.26-00.25.44:565][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.26-00.25.44:830][  0]LogEngine: Initializing Engine...
+[2020.09.26-00.25.44:869][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.26-00.25.44:879][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.26-00.25.44:895][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.014 s
+[2020.09.26-00.25.45:059][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.26-00.25.45:166][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.26-00.25.45:166][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014C86F38600), frame # 0
+[2020.09.26-00.25.45:166][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000014C86F29E40), frame # 0
+[2020.09.26-00.25.45:209][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.26-00.25.45:210][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.26-00.25.45:210][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.26-00.25.45:210][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.26-00.25.45:210][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.26-00.25.45:210][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.26-00.25.45:210][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.26-00.25.45:210][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.26-00.25.45:214][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.26-00.25.45:214][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.26-00.25.45:269][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.26-00.25.45:269][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.26-00.25.45:383][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2020.09.26-00.25.45:390][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.26-00.25.45:395][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.26-00.25.45:395][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.26-00.25.45:397][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.26-00.25.45:398][  0]LogInit: FAudioDevice initialized.
+[2020.09.26-00.25.45:497][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.26-00.25.45:668][  0]LogDerivedDataCache: Saved boot cache 0.17s 75MB C:/Users/edwar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.26-00.25.45:673][  0]LogInit: Texture streaming: Enabled
+[2020.09.26-00.25.45:767][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.26-00.25.45:767][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.26-00.25.45:769][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.26-00.25.46:280][  0]LogInit: Transaction tracking system initialized
+[2020.09.26-00.25.46:521][  0]BlueprintLog: New page: Editor Load
+[2020.09.26-00.25.47:050][  0]LocalizationService: Localization service is disabled
+[2020.09.26-00.25.49:506][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.26-00.25.49:506][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.26-00.25.50:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/' took 0.09s
+[2020.09.26-00.25.52:829][  0]LogUnrealEdMisc: Loading editor; pre map load, took 53.161
+[2020.09.26-00.25.52:865][  0]Cmd: MAP LOAD FILE="C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.26-00.25.52:865][  0]LightingResults: New page: Lighting Build
+[2020.09.26-00.25.52:933][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.26-00.25.52:933][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.26-00.25.52:933][  0]MapCheck: New page: Map Check
+[2020.09.26-00.25.52:933][  0]LightingResults: New page: Lighting Build
+[2020.09.26-00.25.52:965][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000014C86F38600), frame # 0
+[2020.09.26-00.25.52:965][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000014C86F29E40), frame # 0
+[2020.09.26-00.25.52:966][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.09.26-00.25.54:240][  0]LogAIModule: Creating AISystem for world PBtZ
+[2020.09.26-00.25.54:240][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014C8B4FA400), frame # 0
+[2020.09.26-00.25.54:241][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000014C8B748540), frame # 0
+[2020.09.26-00.25.54:351][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.26-00.25.54:433][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.09.26-00.25.54:433][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.26-00.25.54:434][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.201ms to complete.
+[2020.09.26-00.25.54:434][  0]LogFileHelpers: Loading map 'PBtZ' took 1.569
+[2020.09.26-00.25.54:451][  0]LogUnrealEdMisc: Total Editor Startup Time, took 54.782
+[2020.09.26-00.25.58:329][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.26-00.25.58:426][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.26-00.25.58:435][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.26-00.25.58:443][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.26-00.25.58:974][  0]LogCollectionManager: Loaded 0 collections in 0.000927 seconds
+[2020.09.26-00.25.59:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Collections/' took 0.00s
+[2020.09.26-00.25.59:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/Developers/edwar/Collections/' took 0.00s
+[2020.09.26-00.25.59:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/Collections/' took 0.00s
+[2020.09.26-00.25.59:700][  0]LogContentBrowser: Native class hierarchy populated in 0.0196 seconds. Added 3427 classes and 821 folders.
+[2020.09.26-00.26.00:948][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.26-00.26.05:963][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.26-00.26.06:019][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.09.26-00.26.06:835][  0]LogSlate: Took 0.069215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.26-00.26.06:860][  0]LogSlate: Took 0.021499 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.26-00.26.07:114][  0]LogSlate: Took 0.077023 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.26-00.26.09:281][  0]LogRenderer: Reallocating scene render targets to support 912x340 Format 10 NumSamples 1 (Frame:1).
+[2020.09.26-00.26.10:180][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.26-00.26.10:180][  0]LogLoad: (Engine Initialization) Total time: 70.51 seconds
+[2020.09.26-00.26.10:180][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.26-00.26.10:381][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.26-00.26.10:544][  0]LogSlate: Took 0.037949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.26-00.26.10:809][  1]LogAssetRegistry: Asset discovery search completed in 64.6895 seconds
+[2020.09.26-00.26.10:821][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
