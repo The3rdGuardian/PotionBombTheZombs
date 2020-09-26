@@ -1,8 +1,8 @@
-﻿Log file open, 09/25/20 20:47:40
+﻿Log file open, 09/25/20 21:09:34
 LogInit: Display: Running engine for game: PotionBombTheZombs
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.249949
+LogStats: Stats thread started at 0.238842
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -139,13 +139,13 @@ LogInit: Build: ++UE4+Release-4.25-CL-13942748
 LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, GPU: Intel(R) UHD Graphics 620
 LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
 LogInit: Command Line: 
-LogInit: Base Directory: D:/Epic_Launcher/UE_4.25/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -176,7 +176,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,469 +194,581 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.26-00.47.40:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.09.26-00.47.40:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.26-00.47.40:588][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.26-00.47.40:591][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.26-00.47.40:591][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.26-00.47.40:592][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.26-00.47.40:593][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.26-00.47.40:593][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.09.26-00.47.40:593][  0]LogHAL: Display: Platform has ~ 8 GB [8466898944 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.09.26-00.47.40:593][  0]LogInit: Going up to parent DeviceProfile []
-[2020.09.26-00.47.40:593][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.26-00.47.40:593][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.09.26-00.47.40:594][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
-[2020.09.26-00.47.40:595][  0]LogInit: Computer: LAPTOP-50LQP7G3
-[2020.09.26-00.47.40:595][  0]LogInit: User: edwar
-[2020.09.26-00.47.40:595][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.09.26-00.47.40:595][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.09.26-00.47.40:595][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.09.26-00.47.40:595][  0]LogMemory: Platform Memory Stats for Windows
-[2020.09.26-00.47.40:595][  0]LogMemory: Process Physical Memory: 114.02 MB used, 114.02 MB peak
-[2020.09.26-00.47.40:595][  0]LogMemory: Process Virtual Memory: 96.55 MB used, 96.55 MB peak
-[2020.09.26-00.47.40:595][  0]LogMemory: Physical Memory: 6210.02 MB used,  1864.64 MB free, 8074.66 MB total
-[2020.09.26-00.47.40:595][  0]LogMemory: Virtual Memory: 5143.14 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2020.09.26-00.47.40:602][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.09.26-00.47.40:649][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.09.26-00.47.40:650][  0]LogInit: Using OS detected language (en-US).
-[2020.09.26-00.47.40:650][  0]LogInit: Using OS detected locale (en-US).
-[2020.09.26-00.47.40:757][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.09.26-00.47.40:954][  0]LogInit: Setting process to per monitor DPI aware
-[2020.09.26-00.47.41:001][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.09.26-00.47.41:001][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.09.26-00.47.41:335][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.26-00.47.41:335][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.09.26-00.47.41:335][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.09.26-00.47.41:335][  0]LogD3D11RHI: D3D11 adapters:
-[2020.09.26-00.47.41:412][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2020.09.26-00.47.41:412][  0]LogD3D11RHI:       4018/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.09.26-00.47.41:424][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.09.26-00.47.41:424][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.09.26-00.47.41:427][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.09.26-00.47.41:428][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.09.26-00.47.41:428][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.09.26-00.47.41:469][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.09.26-00.47.41:469][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2020.09.26-00.47.41:469][  0]LogWindows: EnumDisplayDevices:
-[2020.09.26-00.47.41:469][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2020.09.26-00.47.41:470][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.09.26-00.47.41:470][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.09.26-00.47.41:470][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.09.26-00.47.41:471][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.09.26-00.47.41:471][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.09.26-00.47.41:471][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.09.26-00.47.41:471][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.09.26-00.47.41:471][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2020.09.26-00.47.41:471][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
-[2020.09.26-00.47.41:471][  0]LogD3D11RHI:      Driver Date: 7-5-2020
-[2020.09.26-00.47.41:471][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2020.09.26-00.47.41:534][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.09.26-00.47.41:537][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.09.26-00.47.41:537][  0]LogD3D11RHI: Async texture creation enabled
-[2020.09.26-00.47.41:537][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.09.26-00.47.41:558][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.09.26-00.47.42:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.09.26-00.47.42:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.09.26-00.47.42:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.09.26-00.47.42:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.09.26-00.47.42:165][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.09.26-00.47.42:175][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.09.26-00.47.42:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.09.26-00.47.42:195][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.09.26-00.47.42:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.09.26-00.47.42:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.09.26-00.47.42:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.09.26-00.47.42:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.09.26-00.47.42:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.09.26-00.47.42:272][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.09.26-00.47.42:272][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.09.26-00.47.42:282][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.09.26-00.47.42:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.09.26-00.47.42:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.09.26-00.47.42:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.09.26-00.47.42:315][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.09.26-00.47.42:328][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.09.26-00.47.42:403][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Intermediate/Shaders/WorkingDirectory/21332/).
-[2020.09.26-00.47.42:403][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/edwar/AppData/Local/Temp/UnrealShaderWorkingDir/AB94E0C748F872E21539D49761BC2AE7/'.
-[2020.09.26-00.47.42:404][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.09.26-00.47.42:404][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.09.26-00.47.42:404][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.09.26-00.47.43:371][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.09.26-00.47.43:445][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/edwar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.26-00.47.43:445][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/edwar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.09.26-00.47.43:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.09.26-00.47.43:445][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.09.26-00.47.43:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.26-00.47.43:445][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.09.26-00.47.43:458][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.09.26-00.47.43:458][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.26-00.47.43:458][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.09.26-00.47.43:460][  0]LogDerivedDataCache: Using Local data cache path C:/Users/edwar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.09.26-00.47.43:460][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.09.26-00.47.43:460][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.09.26-00.47.43:532][  0]LogSlate: Using FreeType 2.10.0
-[2020.09.26-00.47.43:533][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.26-00.47.43:571][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
-[2020.09.26-00.47.43:841][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.26-00.47.43:977][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.09.26-00.47.43:977][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.09.26-00.47.43:977][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.09.26-00.47.43:977][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.09.26-00.47.43:977][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.09.26-00.47.43:996][  0]LogNetVersion: PotionBombTheZombs 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2111352588)
-[2020.09.26-00.47.46:172][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D0FA4BAAC0), frame # 0
-[2020.09.26-00.47.46:172][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D0FA43BD80), frame # 0
-[2020.09.26-00.47.46:174][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D0FA49DE00), frame # 0
-[2020.09.26-00.47.46:276][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.095652 seconds
-[2020.09.26-00.47.46:282][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.09.26-00.47.46:282][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.09.26-00.47.46:282][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.09.26-00.47.46:960][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.09.26-00.47.46:967][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.09.26-00.47.47:017][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
-[2020.09.26-00.47.47:017][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
-[2020.09.26-00.47.47:017][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2020.09.26-00.47.47:063][  0]SourceControl: Source control is disabled
-[2020.09.26-00.47.49:737][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.09.26-00.47.49:760][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.26-00.47.49:760][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.26-00.47.49:817][  0]LogOcInput: OculusInput pre-init called
-[2020.09.26-00.47.49:829][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.09.26-00.47.49:829][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.09.26-00.47.49:898][  0]LogEngine: Initializing Engine...
-[2020.09.26-00.47.49:900][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.26-00.47.49:900][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.09.26-00.47.49:901][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.09.26-00.47.50:079][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.09.26-00.47.50:097][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.09.26-00.47.50:097][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D0FC5C8600), frame # 0
-[2020.09.26-00.47.50:097][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D0FC5BAE80), frame # 0
-[2020.09.26-00.47.50:116][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.26-00.47.50:116][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.26-00.47.50:116][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.26-00.47.50:116][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.26-00.47.50:116][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.26-00.47.50:116][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.26-00.47.50:116][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.26-00.47.50:116][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.26-00.47.50:117][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.26-00.47.50:117][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.26-00.47.50:138][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.26-00.47.50:138][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.09.26-00.47.50:202][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
-[2020.09.26-00.47.50:207][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.26-00.47.50:210][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.26-00.47.50:210][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.26-00.47.50:211][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.26-00.47.50:212][  0]LogInit: FAudioDevice initialized.
-[2020.09.26-00.47.50:212][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.09.26-00.47.50:379][  0]LogDerivedDataCache: Saved boot cache 0.17s 75MB C:/Users/edwar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.26-00.47.50:386][  0]LogInit: Texture streaming: Enabled
-[2020.09.26-00.47.50:406][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.09.26-00.47.50:406][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.09.26-00.47.50:407][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.09.26-00.47.50:473][  0]LogInit: Transaction tracking system initialized
-[2020.09.26-00.47.50:496][  0]BlueprintLog: New page: Editor Load
-[2020.09.26-00.47.50:580][  0]LocalizationService: Localization service is disabled
-[2020.09.26-00.47.50:801][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.09.26-00.47.50:801][  0]LogCook: Display: Mobile HDR setting 1
-[2020.09.26-00.47.50:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/' took 0.01s
-[2020.09.26-00.47.51:273][  0]LogUnrealEdMisc: Loading editor; pre map load, took 13.148
-[2020.09.26-00.47.51:273][  0]Cmd: MAP LOAD FILE="C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.26-00.47.51:274][  0]LightingResults: New page: Lighting Build
-[2020.09.26-00.47.51:274][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.09.26-00.47.51:274][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.26-00.47.51:274][  0]MapCheck: New page: Map Check
-[2020.09.26-00.47.51:274][  0]LightingResults: New page: Lighting Build
-[2020.09.26-00.47.51:310][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D0FC5C8600), frame # 0
-[2020.09.26-00.47.51:310][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D0FC5BAE80), frame # 0
-[2020.09.26-00.47.51:311][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2020.09.26-00.47.51:690][  0]LogAIModule: Creating AISystem for world PBtZ
-[2020.09.26-00.47.51:690][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D08B65E400), frame # 0
-[2020.09.26-00.47.51:690][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D08B657B00), frame # 0
-[2020.09.26-00.47.51:710][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.26-00.47.51:724][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
-[2020.09.26-00.47.51:724][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.26-00.47.51:725][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.253ms to complete.
-[2020.09.26-00.47.51:725][  0]LogFileHelpers: Loading map 'PBtZ' took 0.452
-[2020.09.26-00.47.51:727][  0]LogUnrealEdMisc: Total Editor Startup Time, took 13.602
-[2020.09.26-00.47.52:284][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.26-00.47.52:301][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.26-00.47.52:312][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.26-00.47.52:320][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.26-00.47.52:347][  0]LogCollectionManager: Loaded 0 collections in 0.002517 seconds
-[2020.09.26-00.47.52:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Saved/Collections/' took 0.00s
-[2020.09.26-00.47.52:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/Developers/edwar/Collections/' took 0.00s
-[2020.09.26-00.47.52:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edwar/Documents/GitHub/PotionBombTheZombs/PotionBombTheZombs/Content/Collections/' took 0.00s
-[2020.09.26-00.47.52:414][  0]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 3427 classes and 821 folders.
-[2020.09.26-00.47.52:478][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.09.26-00.47.53:702][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.09.26-00.47.53:725][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2020.09.26-00.47.53:822][  0]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.26-00.47.53:824][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.09.26-00.47.53:853][  0]LogSlate: Took 0.021679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.09.26-00.47.53:987][  0]LogRenderer: Reallocating scene render targets to support 912x340 Format 10 NumSamples 1 (Frame:1).
-[2020.09.26-00.47.54:140][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.09.26-00.47.54:140][  0]LogLoad: (Engine Initialization) Total time: 16.01 seconds
-[2020.09.26-00.47.54:140][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.09.26-00.47.54:196][  0]LogAssetRegistry: Asset discovery search completed in 10.6263 seconds
-[2020.09.26-00.47.54:200][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.09.26-00.47.54:201][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.09.26-00.47.54:270][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.26-00.48.06:086][669]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.26-00.48.06:119][669]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PotionBombTheZombs/Blueprints/BP_IcePotion.BP_IcePotion
-[2020.09.26-00.48.07:656][669]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
-[2020.09.26-00.48.09:765][669]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.09.26-00.48.10:365][670]LogSlate: Took 0.026891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.09.26-00.48.14:579][888]LogSlate: Window 'BP_IcePotion' being destroyed
-[2020.09.26-00.48.14:583][888]LogSlate: Window 'BP_IcePotion' being destroyed
-[2020.09.26-00.48.14:661][888]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.09.26-00.48.14:661][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-01.09.34:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.26-01.09.34:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-01.09.34:888][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-01.09.34:895][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:895][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.26-01.09.34:895][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.26-01.09.34:895][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:895][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.26-01.09.34:895][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:895][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.26-01.09.34:895][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.26-01.09.34:896][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.26-01.09.34:897][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.26-01.09.34:897][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.26-01.09.34:897][  0]LogHAL: Display: Platform has ~ 16 GB [17097428992 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.26-01.09.34:897][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.26-01.09.34:897][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.26-01.09.34:897][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.26-01.09.34:898][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Scalability.ini]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.26-01.09.34:899][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Config/Windows/Engine.ini]
+[2020.09.26-01.09.34:899][  0]LogInit: Computer: ERICASURFACE
+[2020.09.26-01.09.34:899][  0]LogInit: User: Erica
+[2020.09.26-01.09.34:899][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.09.26-01.09.34:900][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.26-01.09.34:900][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.26-01.09.34:900][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.26-01.09.34:900][  0]LogMemory: Process Physical Memory: 114.96 MB used, 114.96 MB peak
+[2020.09.26-01.09.34:900][  0]LogMemory: Process Virtual Memory: 96.42 MB used, 96.42 MB peak
+[2020.09.26-01.09.34:900][  0]LogMemory: Physical Memory: 10793.31 MB used,  5512.07 MB free, 16305.38 MB total
+[2020.09.26-01.09.34:900][  0]LogMemory: Virtual Memory: 5144.86 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.09.26-01.09.34:908][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.26-01.09.34:948][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.26-01.09.34:949][  0]LogInit: Using OS detected language (en-US).
+[2020.09.26-01.09.34:949][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.26-01.09.34:953][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.26-01.09.35:235][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.26-01.09.35:314][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.26-01.09.35:314][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.26-01.09.35:562][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.26-01.09.35:562][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.26-01.09.35:562][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.26-01.09.35:562][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.26-01.09.35:681][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.09.26-01.09.35:681][  0]LogD3D11RHI:       6054/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.09.26-01.09.35:719][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.09.26-01.09.35:719][  0]LogD3D11RHI:       128/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.26-01.09.35:723][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.26-01.09.35:723][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.26-01.09.35:723][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.26-01.09.35:789][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.26-01.09.35:790][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.26-01.09.35:790][  0]LogWindows: EnumDisplayDevices:
+[2020.09.26-01.09.35:790][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.09.26-01.09.35:791][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2020.09.26-01.09.35:791][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.09.26-01.09.35:791][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.09.26-01.09.35:791][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.09.26-01.09.35:791][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.09.26-01.09.35:791][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.09.26-01.09.35:791][  0]LogRHI: Texture pool is 4237 MB (70% of 6054 MB)
+[2020.09.26-01.09.35:876][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.26-01.09.35:879][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.26-01.09.35:879][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.26-01.09.35:879][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.26-01.09.35:901][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.26-01.09.36:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.26-01.09.36:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.26-01.09.36:364][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.26-01.09.36:364][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.26-01.09.36:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.26-01.09.36:400][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.26-01.09.36:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.26-01.09.36:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.26-01.09.36:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.26-01.09.36:455][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.26-01.09.36:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.26-01.09.36:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.26-01.09.36:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.26-01.09.36:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.26-01.09.36:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.26-01.09.36:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.26-01.09.36:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.26-01.09.36:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.26-01.09.36:580][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.26-01.09.36:581][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.26-01.09.36:590][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.26-01.09.36:670][  0]LogShaderCompilers: Guid format shader working directory is -72 characters bigger than the processId version (../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Intermediate/Shaders/WorkingDirectory/15392/).
+[2020.09.26-01.09.36:671][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Erica/AppData/Local/Temp/UnrealShaderWorkingDir/58334607413CE5FC727C34BD6A784135/'.
+[2020.09.26-01.09.36:672][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.26-01.09.36:673][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.26-01.09.36:673][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.26-01.09.37:658][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.26-01.09.37:745][  0]LogDerivedDataCache: Loaded boot cache 0.09s 75MB C:/Users/Erica/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.26-01.09.37:745][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Erica/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.26-01.09.37:745][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.26-01.09.37:745][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.26-01.09.37:745][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.26-01.09.37:745][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.26-01.09.37:763][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.26-01.09.37:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.26-01.09.37:763][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.26-01.09.37:765][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Erica/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.26-01.09.37:765][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.26-01.09.37:765][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.26-01.09.37:837][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.26-01.09.37:838][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.26-01.09.37:868][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2020.09.26-01.09.38:198][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.26-01.09.38:364][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.26-01.09.38:364][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.26-01.09.38:364][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.26-01.09.38:364][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.26-01.09.38:364][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.26-01.09.38:392][  0]LogNetVersion: PotionBombTheZombs 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2111352588)
+[2020.09.26-01.09.39:097][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001B1FC649240), frame # 0
+[2020.09.26-01.09.39:097][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B1FC585080), frame # 0
+[2020.09.26-01.09.39:099][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B1FC5E9C00), frame # 0
+[2020.09.26-01.09.39:210][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.101147 seconds
+[2020.09.26-01.09.39:219][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.26-01.09.39:220][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.26-01.09.39:220][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.26-01.09.39:789][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.26-01.09.39:797][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.26-01.09.39:932][  0]SourceControl: Source control is disabled
+[2020.09.26-01.09.40:807][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.26-01.09.40:841][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.26-01.09.40:841][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.26-01.09.40:919][  0]LogOcInput: OculusInput pre-init called
+[2020.09.26-01.09.40:939][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.26-01.09.40:939][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.26-01.09.41:044][  0]LogEngine: Initializing Engine...
+[2020.09.26-01.09.41:046][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.26-01.09.41:046][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.26-01.09.41:048][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.26-01.09.41:242][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.26-01.09.41:253][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.26-01.09.41:253][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B181E0BC00), frame # 0
+[2020.09.26-01.09.41:254][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B181E4EAC0), frame # 0
+[2020.09.26-01.09.41:283][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.26-01.09.41:283][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.26-01.09.41:283][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.26-01.09.41:283][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.26-01.09.41:283][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.26-01.09.41:283][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.26-01.09.41:283][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.26-01.09.41:283][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.26-01.09.41:283][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.26-01.09.41:283][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.26-01.09.41:331][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.26-01.09.41:332][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.26-01.09.41:392][  0]LogAudioMixer: Display: Using Audio Device Headphones (TREKZ Titanium by AfterShokz Stereo)
+[2020.09.26-01.09.41:396][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.26-01.09.41:401][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.26-01.09.41:401][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.26-01.09.41:402][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.26-01.09.41:404][  0]LogInit: FAudioDevice initialized.
+[2020.09.26-01.09.41:405][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.26-01.09.41:583][  0]LogDerivedDataCache: Saved boot cache 0.18s 75MB C:/Users/Erica/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.26-01.09.41:589][  0]LogInit: Texture streaming: Enabled
+[2020.09.26-01.09.41:612][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.26-01.09.41:612][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.26-01.09.41:614][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.26-01.09.41:724][  0]LogInit: Transaction tracking system initialized
+[2020.09.26-01.09.41:756][  0]BlueprintLog: New page: Editor Load
+[2020.09.26-01.09.41:860][  0]LocalizationService: Localization service is disabled
+[2020.09.26-01.09.42:114][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.26-01.09.42:114][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.26-01.09.42:312][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/' took 0.00s
+[2020.09.26-01.09.42:633][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.797
+[2020.09.26-01.09.42:634][  0]LightingResults: New page: Lighting Build
+[2020.09.26-01.09.42:635][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.26-01.09.42:635][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.26-01.09.42:635][  0]MapCheck: New page: Map Check
+[2020.09.26-01.09.42:635][  0]LightingResults: New page: Lighting Build
+[2020.09.26-01.09.42:646][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B181E0BC00), frame # 0
+[2020.09.26-01.09.42:646][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B181E4EAC0), frame # 0
+[2020.09.26-01.09.42:647][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.09.26-01.09.42:847][  0]LogAIModule: Creating AISystem for world PBtZ
+[2020.09.26-01.09.42:847][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B18B3CBE00), frame # 0
+[2020.09.26-01.09.42:848][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B18BBE91C0), frame # 0
+[2020.09.26-01.09.42:883][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.26-01.09.42:903][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.09.26-01.09.42:904][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.26-01.09.42:905][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.311ms to complete.
+[2020.09.26-01.09.42:905][  0]LogFileHelpers: Loading map 'PBtZ' took 0.272
+[2020.09.26-01.09.42:910][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.073
+[2020.09.26-01.09.43:123][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.26-01.09.43:139][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.26-01.09.43:152][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.26-01.09.43:168][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.26-01.09.43:181][  0]LogCollectionManager: Loaded 0 collections in 0.002996 seconds
+[2020.09.26-01.09.43:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/Collections/' took 0.00s
+[2020.09.26-01.09.43:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/Developers/Erica/Collections/' took 0.00s
+[2020.09.26-01.09.43:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/Collections/' took 0.00s
+[2020.09.26-01.09.43:204][  0]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 3427 classes and 821 folders.
+[2020.09.26-01.09.43:208][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.26-01.09.43:294][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.26-01.09.43:295][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.09.26-01.09.43:386][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.26-01.09.43:389][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.26-01.09.43:401][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.26-01.09.43:632][  0]LogRenderer: Reallocating scene render targets to support 1020x576 Format 10 NumSamples 1 (Frame:1).
+[2020.09.26-01.09.43:840][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.26-01.09.43:840][  0]LogLoad: (Engine Initialization) Total time: 11.00 seconds
+[2020.09.26-01.09.43:840][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.26-01.09.43:931][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.26-01.10.26:174][377]LogAssetRegistry: Asset discovery search completed in 48.3068 seconds
+[2020.09.26-01.10.26:192][377]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
+[2020.09.26-01.13.09:179][905]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.26-01.13.09:359][905]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house02LP.fbx)
+[2020.09.26-01.13.09:383][905]LogFbx: Loading FBX Scene from C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house02LP.fbx
+[2020.09.26-01.13.09:399][905]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.26-01.13.16:239][905]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.26-01.13.16:510][905]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house03LP.fbx)
+[2020.09.26-01.13.16:682][905]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\ZomBear_Model.fbx)
+[2020.09.26-01.13.16:828][905]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\alchemist.fbx)
+[2020.09.26-01.13.16:968][905]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house01LP.fbx)
+[2020.09.26-01.13.22:584][  9]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\alchemist.fbx)
+[2020.09.26-01.13.22:604][  9]LogFbx: Loading FBX Scene from C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\alchemist.fbx
+[2020.09.26-01.13.22:617][  9]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.26-01.13.27:363][  9]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.26-01.13.27:804][  9]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/PotionBombTheZombs/Blueprints/' is not a standard unreal filename or a long path name. Reason: Path may not end with a '/'
+[2020.09.26-01.13.27:804][  9]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/PotionBombTheZombs/Blueprints/' is not a standard unreal filename or a long path name. Reason: Path may not end with a '/'
+[2020.09.26-01.13.27:804][  9]LogFbxMaterialImport: Display: Unable to find Texture file 
+[2020.09.26-01.13.27:808][  9]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.09.26-01.13.27:870][  9]LogFbx: Display: Triangulating static mesh Character1
+[2020.09.26-01.13.28:073][  9]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.09.26-01.13.28:074][  9]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.09.26-01.13.28:074][  9]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.09.26-01.13.28:074][  9]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.09.26-01.13.28:076][  9]LogStaticMesh: Building static mesh alchemist...
+[2020.09.26-01.13.28:197][  9]LogStaticMesh: Built static mesh [0.12s] /Game/PotionBombTheZombs/Blueprints/alchemist.alchemist
+[2020.09.26-01.13.28:250][  9]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.09.26-01.13.28:620][  9]LogSlate: Took 0.022562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.26-01.13.32:438][106]LogSlate: Window 'Message Log' being destroyed
+[2020.09.26-01.13.32:482][106]LogSlate: Window 'Message Log' being destroyed
+[2020.09.26-01.13.43:210][328]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house02LP.fbx)
+[2020.09.26-01.13.43:239][328]LogFbx: Loading FBX Scene from C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house02LP.fbx
+[2020.09.26-01.13.43:254][328]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.26-01.13.49:741][328]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.26-01.13.49:868][328]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.09.26-01.13.49:893][328]LogFbx: Display: Triangulating static mesh roof
+[2020.09.26-01.13.49:907][328]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.09.26-01.13.49:907][328]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.09.26-01.13.49:907][328]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.09.26-01.13.49:907][328]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.09.26-01.13.49:907][328]LogFbx: Display: Triangulating static mesh chim2
+[2020.09.26-01.13.49:912][328]LogFbx: Display: Triangulating static mesh houseB
+[2020.09.26-01.13.49:946][328]LogFbx: Display: Triangulating static mesh stairs
+[2020.09.26-01.13.49:951][328]LogStaticMesh: Building static mesh house02LP...
+[2020.09.26-01.13.49:994][328]LogStaticMesh: Built static mesh [0.04s] /Game/PotionBombTheZombs/Blueprints/house02LP.house02LP
+[2020.09.26-01.13.50:031][328]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.09.26-01.13.50:446][328]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house03LP.fbx)
+[2020.09.26-01.13.50:520][328]LogFbx: Loading FBX Scene from C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house03LP.fbx
+[2020.09.26-01.13.50:553][328]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.26-01.13.50:564][328]LogFbx: Display: Triangulating static mesh stairs
+[2020.09.26-01.13.50:567][328]LogFbx: Display: Triangulating static mesh pCube4
+[2020.09.26-01.13.50:569][328]LogFbx: Display: Triangulating static mesh pCube2
+[2020.09.26-01.13.50:571][328]LogFbx: Display: Triangulating static mesh pCube6
+[2020.09.26-01.13.50:575][328]LogFbx: Display: Triangulating static mesh pCylinder5
+[2020.09.26-01.13.50:577][328]LogFbx: Display: Triangulating static mesh pCube7
+[2020.09.26-01.13.50:579][328]LogFbx: Display: Triangulating static mesh wind6
+[2020.09.26-01.13.50:581][328]LogFbx: Display: Triangulating static mesh pCube3
+[2020.09.26-01.13.50:582][328]LogFbx: Display: Triangulating static mesh pCube11
+[2020.09.26-01.13.50:583][328]LogFbx: Display: Triangulating static mesh wind5
+[2020.09.26-01.13.50:585][328]LogFbx: Display: Triangulating static mesh chim2
+[2020.09.26-01.13.50:587][328]LogFbx: Display: Triangulating static mesh pCube8
+[2020.09.26-01.13.50:589][328]LogFbx: Display: Triangulating static mesh wind7
+[2020.09.26-01.13.50:592][328]LogFbx: Display: Triangulating static mesh wind8
+[2020.09.26-01.13.50:595][328]LogFbx: Display: Triangulating static mesh roof
+[2020.09.26-01.13.50:602][328]LogFbx: Display: Triangulating static mesh pCube9
+[2020.09.26-01.13.50:603][328]LogFbx: Display: Triangulating static mesh pCube10
+[2020.09.26-01.13.50:606][328]LogFbx: Display: Triangulating static mesh pCylinder4
+[2020.09.26-01.13.50:611][328]LogStaticMesh: Building static mesh house03LP...
+[2020.09.26-01.13.50:638][328]LogStaticMesh: Built static mesh [0.03s] /Game/PotionBombTheZombs/Blueprints/house03LP.house03LP
+[2020.09.26-01.13.50:656][328]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.09.26-01.13.50:968][328]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house01LP.fbx)
+[2020.09.26-01.13.51:038][328]LogFbx: Loading FBX Scene from C:\Users\Erica\Documents\School\Fall 2020\Casual Game Production\FBX Models\house01LP.fbx
+[2020.09.26-01.13.51:071][328]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.26-01.13.51:085][328]LogFbx: Display: Triangulating static mesh roof
+[2020.09.26-01.13.51:097][328]LogFbx: Display: Triangulating static mesh chim1
+[2020.09.26-01.13.51:100][328]LogFbx: Display: Triangulating static mesh chim2
+[2020.09.26-01.13.51:104][328]LogFbx: Display: Triangulating static mesh houseB
+[2020.09.26-01.13.51:145][328]LogFbx: Display: Triangulating static mesh stairs
+[2020.09.26-01.13.51:150][328]LogStaticMesh: Building static mesh house01LP...
+[2020.09.26-01.13.51:189][328]LogStaticMesh: Built static mesh [0.04s] /Game/PotionBombTheZombs/Blueprints/house01LP.house01LP
+[2020.09.26-01.13.51:213][328]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.09.26-01.13.53:620][388]LogSlate: Window 'Message Log' being destroyed
+[2020.09.26-01.13.53:636][388]LogSlate: Window 'Message Log' being destroyed
+[2020.09.26-01.14.16:556][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.09.26-01.14.16:628][819]LogSavePackage: Moving '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZE7FCC98441257C38102CC7B8E5D5382B.tmp' to '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ.umap'
+[2020.09.26-01.14.17:254][819]LogSavePackage: Moving '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/PBtZ_BuiltDataF7A51F48493A5B3DECF9CCB42DEFDB02.tmp' to '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/PBtZ_BuiltData.uasset'
+[2020.09.26-01.14.17:272][819]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.26-01.14.17:273][819]LogContentValidation: Display: Validating World /Game/PotionBombTheZombs/PBtZ.PBtZ
+[2020.09.26-01.14.17:273][819]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/PotionBombTheZombs/PBtZ_BuiltData.PBtZ_BuiltData
+[2020.09.26-01.14.33:265][413]LogSlate: Window 'Source Control Login' being destroyed
+[2020.09.26-01.14.38:358][573]LogSavePackage: Moving '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/house02LP69ACE2354CA63853A60445A24AA33C9A.tmp' to '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/house02LP.uasset'
+[2020.09.26-01.14.38:652][573]LogSavePackage: Moving '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/house03LP33DD4C2348D286615133A995375D271C.tmp' to '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/house03LP.uasset'
+[2020.09.26-01.14.38:943][573]LogSavePackage: Moving '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/lambert131D2390246C5A025CFE6CEB03126BD7D.tmp' to '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/lambert1.uasset'
+[2020.09.26-01.14.39:235][573]LogSavePackage: Moving '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/alchemistFB223D924F7C60EFA6E48DA010F748F0.tmp' to '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/alchemist.uasset'
+[2020.09.26-01.14.39:549][573]LogSavePackage: Moving '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/house01LP7437F9374E66A76E8947929C93C408B9.tmp' to '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/house01LP.uasset'
+[2020.09.26-01.14.39:814][573]LogSavePackage: Moving '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Saved/lambert2B450500A446C387FD27252AB58BA1F25.tmp' to '../../../../../../Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs/PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/lambert2.uasset'
+[2020.09.26-01.14.40:093][573]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.26-01.14.40:094][573]LogContentValidation: Display: Validating StaticMesh /Game/PotionBombTheZombs/Blueprints/house02LP.house02LP
+[2020.09.26-01.14.40:094][573]LogContentValidation: Display: Validating StaticMesh /Game/PotionBombTheZombs/Blueprints/house03LP.house03LP
+[2020.09.26-01.14.40:094][573]LogContentValidation: Display: Validating Material /Game/PotionBombTheZombs/Blueprints/lambert1.lambert1
+[2020.09.26-01.14.40:094][573]LogContentValidation: Display: Validating StaticMesh /Game/PotionBombTheZombs/Blueprints/alchemist.alchemist
+[2020.09.26-01.14.40:094][573]LogContentValidation: Display: Validating StaticMesh /Game/PotionBombTheZombs/Blueprints/house01LP.house01LP
+[2020.09.26-01.14.40:094][573]LogContentValidation: Display: Validating Material /Game/PotionBombTheZombs/Blueprints/lambert2.lambert2
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.14.51:530][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/Erica/Documents/School/Fall 2020/Casual Game Production/PotionBombTheZombs'
+[2020.09.26-01.15.05:031][  0]LogSlate: Window 'Submit Files' being destroyed
+[2020.09.26-01.15.05:767][  0]LogSourceControl: commit successful: [AddingModels 3a0adcf] models
+[2020.09.26-01.15.05:910][  0]SourceControl: [AddingModels 3a0adcf] models
+[2020.09.26-01.15.05:910][  0]SourceControl:  7 files changed, 0 insertions(+), 0 deletions(-)
+[2020.09.26-01.15.05:910][  0]SourceControl:  create mode 100644 PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/alchemist.uasset
+[2020.09.26-01.15.05:910][  0]SourceControl:  create mode 100644 PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/house01LP.uasset
+[2020.09.26-01.15.05:910][  0]SourceControl:  create mode 100644 PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/house02LP.uasset
+[2020.09.26-01.15.05:910][  0]SourceControl:  create mode 100644 PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/house03LP.uasset
+[2020.09.26-01.15.05:910][  0]SourceControl:  create mode 100644 PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/lambert1.uasset
+[2020.09.26-01.15.05:910][  0]SourceControl:  create mode 100644 PotionBombTheZombs/Content/PotionBombTheZombs/Blueprints/lambert2.uasset
+[2020.09.26-01.15.05:925][  0]SourceControl: Commited [AddingModels 3a0adcf] models.
